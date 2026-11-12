@@ -1,0 +1,601 @@
+[
+  {
+    "id": "C01",
+    "title": "Complete new company",
+    "legal_name": "Sunrise Components Private Limited",
+    "pan": "AAACS1234D",
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf"
+      },
+      {
+        "kind": "gst",
+        "format": "pdf"
+      },
+      {
+        "kind": "bank_proof",
+        "format": "pdf"
+      },
+      {
+        "kind": "business_registration",
+        "format": "pdf"
+      }
+    ],
+    "vendor_type": "company",
+    "gstin": "27AAACS1234D1Z5",
+    "address": "1 Demo Road, Mumbai, Maharashtra",
+    "account_holder": "Sunrise Components Private Limited",
+    "bank_account": "50100000000199",
+    "ifsc": "HDFC0001234"
+  },
+  {
+    "id": "C02",
+    "title": "Existing company matched automatically from document identifiers",
+    "legal_name": "Northstar Office Supplies Private Limited",
+    "pan": "AAACN1234A",
+    "bank_account": "50300011223344",
+    "ifsc": "HDFC0001234",
+    "address": "14 Market Road Mumbai Maharashtra",
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf"
+      },
+      {
+        "kind": "gst",
+        "format": "pdf"
+      },
+      {
+        "kind": "bank_proof",
+        "format": "pdf"
+      },
+      {
+        "kind": "business_registration",
+        "format": "pdf"
+      }
+    ],
+    "vendor_type": "company",
+    "gstin": "27AAACN1234A1Z5",
+    "account_holder": "Northstar Office Supplies Private Limited"
+  },
+  {
+    "id": "C03",
+    "title": "All evidence in one PDF",
+    "legal_name": "Cedar Industrial Private Limited",
+    "pan": "AAACC2345E",
+    "combined_pdf": true,
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf"
+      },
+      {
+        "kind": "gst",
+        "format": "pdf"
+      },
+      {
+        "kind": "bank_proof",
+        "format": "pdf"
+      },
+      {
+        "kind": "business_registration",
+        "format": "pdf"
+      }
+    ],
+    "vendor_type": "company",
+    "gstin": "27AAACC2345E1Z5",
+    "address": "3 Demo Road, Mumbai, Maharashtra",
+    "account_holder": "Cedar Industrial Private Limited",
+    "bank_account": "50100000000399",
+    "ifsc": "HDFC0001234"
+  },
+  {
+    "id": "C04",
+    "title": "Evidence split across images and PDF",
+    "legal_name": "Blue River Tools Private Limited",
+    "pan": "AAACB3456F",
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "png"
+      },
+      {
+        "kind": "gst",
+        "format": "pdf"
+      },
+      {
+        "kind": "bank_proof",
+        "format": "jpg"
+      },
+      {
+        "kind": "business_registration",
+        "format": "pdf"
+      }
+    ],
+    "vendor_type": "company",
+    "gstin": "27AAACB3456F1Z5",
+    "address": "4 Demo Road, Mumbai, Maharashtra",
+    "account_holder": "Blue River Tools Private Limited",
+    "bank_account": "50100000000499",
+    "ifsc": "HDFC0001234"
+  },
+  {
+    "id": "C05",
+    "title": "Missing bank proof",
+    "legal_name": "Maple Parts Private Limited",
+    "pan": "AAACM4567G",
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf"
+      },
+      {
+        "kind": "gst",
+        "format": "pdf"
+      },
+      {
+        "kind": "business_registration",
+        "format": "pdf"
+      }
+    ],
+    "vendor_type": "company",
+    "gstin": "27AAACM4567G1Z5",
+    "address": "5 Demo Road, Mumbai, Maharashtra",
+    "account_holder": "Maple Parts Private Limited",
+    "bank_account": "50100000000599",
+    "ifsc": "HDFC0001234"
+  },
+  {
+    "id": "C06",
+    "title": "Harmless company suffix variation",
+    "legal_name": "Orion Textiles Private Limited",
+    "pan": "AAACO5678H",
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf",
+        "overrides": {
+          "legal_name": "Orion Textiles Pvt. Ltd."
+        }
+      },
+      {
+        "kind": "gst",
+        "format": "pdf"
+      },
+      {
+        "kind": "bank_proof",
+        "format": "pdf"
+      },
+      {
+        "kind": "business_registration",
+        "format": "pdf"
+      }
+    ],
+    "vendor_type": "company",
+    "gstin": "27AAACO5678H1Z5",
+    "address": "6 Demo Road, Mumbai, Maharashtra",
+    "account_holder": "Orion Textiles Private Limited",
+    "bank_account": "50100000000699",
+    "ifsc": "HDFC0001234"
+  },
+  {
+    "id": "C07",
+    "title": "PAN document conflicts with PAN embedded in GSTIN",
+    "legal_name": "Vista Packaging Private Limited",
+    "pan": "AAACV6789J",
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf",
+        "overrides": {
+          "pan": "AAACX6789J"
+        }
+      },
+      {
+        "kind": "gst",
+        "format": "pdf"
+      },
+      {
+        "kind": "bank_proof",
+        "format": "pdf"
+      },
+      {
+        "kind": "business_registration",
+        "format": "pdf"
+      }
+    ],
+    "vendor_type": "company",
+    "gstin": "27AAACV6789J1Z5",
+    "address": "7 Demo Road, Mumbai, Maharashtra",
+    "account_holder": "Vista Packaging Private Limited",
+    "bank_account": "50100000000799",
+    "ifsc": "HDFC0001234"
+  },
+  {
+    "id": "C08",
+    "title": "Legal names conflict across vendor documents",
+    "legal_name": "Lakeview Machines Private Limited",
+    "pan": "AAACL7890K",
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf"
+      },
+      {
+        "kind": "gst",
+        "format": "pdf"
+      },
+      {
+        "kind": "bank_proof",
+        "format": "pdf"
+      },
+      {
+        "kind": "business_registration",
+        "format": "pdf",
+        "overrides": {
+          "legal_name": "River Traders Private Limited"
+        }
+      }
+    ],
+    "vendor_type": "company",
+    "gstin": "27AAACL7890K1Z5",
+    "address": "8 Demo Road, Mumbai, Maharashtra",
+    "account_holder": "Lakeview Machines Private Limited",
+    "bank_account": "50100000000899",
+    "ifsc": "HDFC0001234"
+  },
+  {
+    "id": "C09",
+    "title": "Existing vendor changed bank account",
+    "legal_name": "Northstar Office Supplies Private Limited",
+    "pan": "AAACN1234A",
+    "bank_account": "50300011999999",
+    "ifsc": "HDFC0001234",
+    "address": "14 Market Road Mumbai Maharashtra",
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf"
+      },
+      {
+        "kind": "gst",
+        "format": "pdf"
+      },
+      {
+        "kind": "bank_proof",
+        "format": "pdf"
+      },
+      {
+        "kind": "business_registration",
+        "format": "pdf"
+      }
+    ],
+    "vendor_type": "company",
+    "gstin": "27AAACN1234A1Z5",
+    "account_holder": "Northstar Office Supplies Private Limited"
+  },
+  {
+    "id": "C10",
+    "title": "Blocked PAN exact match",
+    "legal_name": "Blocked Demo Trading",
+    "pan": "AAACB9999C",
+    "gstin": "27AAACB9999C1Z2",
+    "vendor_type": "company",
+    "bank_account": "220011009900",
+    "ifsc": "ICIC0000222",
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf"
+      },
+      {
+        "kind": "gst",
+        "format": "pdf"
+      },
+      {
+        "kind": "bank_proof",
+        "format": "pdf"
+      },
+      {
+        "kind": "business_registration",
+        "format": "pdf"
+      }
+    ],
+    "address": "4 Old Street Mumbai Maharashtra",
+    "account_holder": "Blocked Demo Trading"
+  },
+  {
+    "id": "C11",
+    "title": "Unreadable bank image",
+    "legal_name": "Oakline Plastics Private Limited",
+    "pan": "AAACO8901L",
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf"
+      },
+      {
+        "kind": "gst",
+        "format": "pdf"
+      },
+      {
+        "kind": "bank_proof",
+        "format": "png",
+        "unreadable": true
+      },
+      {
+        "kind": "business_registration",
+        "format": "pdf"
+      }
+    ],
+    "vendor_type": "company",
+    "gstin": "27AAACO8901L1Z5",
+    "address": "11 Demo Road, Mumbai, Maharashtra",
+    "account_holder": "Oakline Plastics Private Limited",
+    "bank_account": "50100000001199",
+    "ifsc": "HDFC0001234"
+  },
+  {
+    "id": "C12",
+    "title": "Wrong document instead of bank proof",
+    "legal_name": "Prism Hardware Private Limited",
+    "pan": "AAACP9012M",
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf"
+      },
+      {
+        "kind": "gst",
+        "format": "pdf"
+      },
+      {
+        "kind": "other",
+        "format": "pdf"
+      },
+      {
+        "kind": "business_registration",
+        "format": "pdf"
+      }
+    ],
+    "vendor_type": "company",
+    "gstin": "27AAACP9012M1Z5",
+    "address": "12 Demo Road, Mumbai, Maharashtra",
+    "account_holder": "Prism Hardware Private Limited",
+    "bank_account": "50100000001299",
+    "ifsc": "HDFC0001234"
+  },
+  {
+    "id": "C13",
+    "title": "Invalid PAN structure",
+    "legal_name": "Quartz Office Private Limited",
+    "pan": "BADPAN123",
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf"
+      },
+      {
+        "kind": "gst",
+        "format": "pdf"
+      },
+      {
+        "kind": "bank_proof",
+        "format": "pdf"
+      },
+      {
+        "kind": "business_registration",
+        "format": "pdf"
+      }
+    ],
+    "allow_invalid_identifiers": true,
+    "vendor_type": "company",
+    "gstin": "27BADPAN1231Z5",
+    "address": "13 Demo Road, Mumbai, Maharashtra",
+    "account_holder": "Quartz Office Private Limited",
+    "bank_account": "50100000001399",
+    "ifsc": "HDFC0001234"
+  },
+  {
+    "id": "C14",
+    "title": "Existing sole proprietor without GST matched automatically",
+    "legal_name": "Meera Rao",
+    "trading_name": "",
+    "vendor_type": "sole_proprietor",
+    "pan": "AAAPR1234F",
+    "gstin": "",
+    "gst_non_registration_reason": "",
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf"
+      },
+      {
+        "kind": "bank_proof",
+        "format": "pdf"
+      }
+    ],
+    "account_holder": "Meera Rao",
+    "bank_account": "782010099887",
+    "ifsc": "SBIN0004321",
+    "address": "8 Lake View Pune Maharashtra"
+  },
+  {
+    "id": "C15",
+    "title": "New sole proprietor without GST evidence or a written explanation",
+    "legal_name": "Ishan Jain",
+    "trading_name": "Ishan Repair Services",
+    "vendor_type": "sole_proprietor",
+    "pan": "AAAPJ3456Q",
+    "gstin": "",
+    "gst_non_registration_reason": "",
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf"
+      },
+      {
+        "kind": "bank_proof",
+        "format": "pdf"
+      }
+    ],
+    "address": "15 Demo Road, Mumbai, Maharashtra",
+    "account_holder": "Ishan Jain",
+    "bank_account": "50100000001599",
+    "ifsc": "HDFC0001234"
+  },
+  {
+    "id": "C16",
+    "title": "Existing company approved without a manually supplied vendor ID",
+    "legal_name": "Northstar Office Supplies Private Limited",
+    "pan": "AAACN1234A",
+    "bank_account": "50300011223344",
+    "ifsc": "HDFC0001234",
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf"
+      },
+      {
+        "kind": "gst",
+        "format": "pdf"
+      },
+      {
+        "kind": "bank_proof",
+        "format": "pdf"
+      },
+      {
+        "kind": "business_registration",
+        "format": "pdf"
+      }
+    ],
+    "address": "14 Market Road Mumbai Maharashtra",
+    "vendor_type": "company",
+    "gstin": "27AAACN1234A1Z5",
+    "account_holder": "Northstar Office Supplies Private Limited"
+  },
+  {
+    "id": "C17",
+    "title": "Bank proof embedded in DOCX",
+    "legal_name": "Pioneer Analytics Private Limited",
+    "pan": "AAACP4567R",
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf"
+      },
+      {
+        "kind": "gst",
+        "format": "pdf"
+      },
+      {
+        "kind": "bank_proof",
+        "format": "docx_image"
+      },
+      {
+        "kind": "business_registration",
+        "format": "pdf"
+      }
+    ],
+    "vendor_type": "company",
+    "gstin": "27AAACP4567R1Z5",
+    "address": "17 Demo Road, Mumbai, Maharashtra",
+    "account_holder": "Pioneer Analytics Private Limited",
+    "bank_account": "50100000001799",
+    "ifsc": "HDFC0001234"
+  },
+  {
+    "id": "C18",
+    "title": "Resubmission cures missing bank proof",
+    "legal_name": "Harbor Logistics Private Limited",
+    "pan": "AAACH5678S",
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf"
+      },
+      {
+        "kind": "gst",
+        "format": "pdf"
+      },
+      {
+        "kind": "business_registration",
+        "format": "pdf"
+      }
+    ],
+    "resubmission_docs": [
+      {
+        "kind": "bank_proof",
+        "format": "pdf"
+      }
+    ],
+    "vendor_type": "company",
+    "gstin": "27AAACH5678S1Z5",
+    "address": "18 Demo Road, Mumbai, Maharashtra",
+    "account_holder": "Harbor Logistics Private Limited",
+    "bank_account": "50100000001899",
+    "ifsc": "HDFC0001234"
+  },
+  {
+    "id": "C19",
+    "title": "Registration evidence in a DOCX table",
+    "legal_name": "Delta Packaging Private Limited",
+    "pan": "AAACD6789T",
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf"
+      },
+      {
+        "kind": "gst",
+        "format": "pdf"
+      },
+      {
+        "kind": "bank_proof",
+        "format": "pdf"
+      },
+      {
+        "kind": "business_registration",
+        "format": "docx_text"
+      }
+    ],
+    "vendor_type": "company",
+    "gstin": "27AAACD6789T1Z5",
+    "address": "19 Demo Road, Mumbai, Maharashtra",
+    "account_holder": "Delta Packaging Private Limited",
+    "bank_account": "50100000001999",
+    "ifsc": "HDFC0001234"
+  },
+  {
+    "id": "C20",
+    "title": "All evidence in a scanned combined PDF",
+    "legal_name": "Aster Metals Private Limited",
+    "pan": "AAACA7890U",
+    "scanned_pdf": true,
+    "docs": [
+      {
+        "kind": "pan",
+        "format": "pdf"
+      },
+      {
+        "kind": "gst",
+        "format": "pdf"
+      },
+      {
+        "kind": "bank_proof",
+        "format": "pdf"
+      },
+      {
+        "kind": "business_registration",
+        "format": "pdf"
+      }
+    ],
+    "vendor_type": "company",
+    "gstin": "27AAACA7890U1Z5",
+    "address": "20 Demo Road, Mumbai, Maharashtra",
+    "account_holder": "Aster Metals Private Limited",
+    "bank_account": "50100000002099",
+    "ifsc": "HDFC0001234"
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "case_id": "C01",
+    "title": "Complete new company",
+    "workflow": "document_only",
+    "files": [
+      "C01/v1_01_pan.pdf",
+      "C01/v1_02_gst.pdf",
+      "C01/v1_03_bank_proof.pdf",
+      "C01/v1_04_business_registration.pdf"
+    ],
+    "resubmission_files": []
+  },
+  {
+    "case_id": "C02",
+    "title": "Existing company matched automatically from document identifiers",
+    "workflow": "document_only",
+    "files": [
+      "C02/v1_01_pan.pdf",
+      "C02/v1_02_gst.pdf",
+      "C02/v1_03_bank_proof.pdf",
+      "C02/v1_04_business_registration.pdf"
+    ],
+    "resubmission_files": []
+  },
+  {
+    "case_id": "C03",
+    "title": "All evidence in one PDF",
+    "workflow": "document_only",
+    "files": [
+      "C03/combined_evidence.pdf"
+    ],
+    "resubmission_files": []
+  },
+  {
+    "case_id": "C04",
+    "title": "Evidence split across images and PDF",
+    "workflow": "document_only",
+    "files": [
+      "C04/v1_01_pan.png",
+      "C04/v1_02_gst.pdf",
+      "C04/v1_03_bank_proof.jpg",
+      "C04/v1_04_business_registration.pdf"
+    ],
+    "resubmission_files": []
+  },
+  {
+    "case_id": "C05",
+    "title": "Missing bank proof",
+    "workflow": "document_only",
+    "files": [
+      "C05/v1_01_pan.pdf",
+      "C05/v1_02_gst.pdf",
+      "C05/v1_03_business_registration.pdf"
+    ],
+    "resubmission_files": []
+  },
+  {
+    "case_id": "C06",
+    "title": "Harmless company suffix variation",
+    "workflow": "document_only",
+    "files": [
+      "C06/v1_01_pan.pdf",
+      "C06/v1_02_gst.pdf",
+      "C06/v1_03_bank_proof.pdf",
+      "C06/v1_04_business_registration.pdf"
+    ],
+    "resubmission_files": []
+  },
+  {
+    "case_id": "C07",
+    "title": "PAN document conflicts with PAN embedded in GSTIN",
+    "workflow": "document_only",
+    "files": [
+      "C07/v1_01_pan.pdf",
+      "C07/v1_02_gst.pdf",
+      "C07/v1_03_bank_proof.pdf",
+      "C07/v1_04_business_registration.pdf"
+    ],
+    "resubmission_files": []
+  },
+  {
+    "case_id": "C08",
+    "title": "Legal names conflict across vendor documents",
+    "workflow": "document_only",
+    "files": [
+      "C08/v1_01_pan.pdf",
+      "C08/v1_02_gst.pdf",
+      "C08/v1_03_bank_proof.pdf",
+      "C08/v1_04_business_registration.pdf"
+    ],
+    "resubmission_files": []
+  },
+  {
+    "case_id": "C09",
+    "title": "Existing vendor changed bank account",
+    "workflow": "document_only",
+    "files": [
+      "C09/v1_01_pan.pdf",
+      "C09/v1_02_gst.pdf",
+      "C09/v1_03_bank_proof.pdf",
+      "C09/v1_04_business_registration.pdf"
+    ],
+    "resubmission_files": []
+  },
+  {
+    "case_id": "C10",
+    "title": "Blocked PAN exact match",
+    "workflow": "document_only",
+    "files": [
+      "C10/v1_01_pan.pdf",
+      "C10/v1_02_gst.pdf",
+      "C10/v1_03_bank_proof.pdf",
+      "C10/v1_04_business_registration.pdf"
+    ],
+    "resubmission_files": []
+  },
+  {
+    "case_id": "C11",
+    "title": "Unreadable bank image",
+    "workflow": "document_only",
+    "files": [
+      "C11/v1_01_pan.pdf",
+      "C11/v1_02_gst.pdf",
+      "C11/v1_03_bank_proof.png",
+      "C11/v1_04_business_registration.pdf"
+    ],
+    "resubmission_files": []
+  },
+  {
+    "case_id": "C12",
+    "title": "Wrong document instead of bank proof",
+    "workflow": "document_only",
+    "files": [
+      "C12/v1_01_pan.pdf",
+      "C12/v1_02_gst.pdf",
+      "C12/v1_03_other.pdf",
+      "C12/v1_04_business_registration.pdf"
+    ],
+    "resubmission_files": []
+  },
+  {
+    "case_id": "C13",
+    "title": "Invalid PAN structure",
+    "workflow": "document_only",
+    "files": [
+      "C13/v1_01_pan.pdf",
+      "C13/v1_02_gst.pdf",
+      "C13/v1_03_bank_proof.pdf",
+      "C13/v1_04_business_registration.pdf"
+    ],
+    "resubmission_files": []
+  },
+  {
+    "case_id": "C14",
+    "title": "Existing sole proprietor without GST matched automatically",
+    "workflow": "document_only",
+    "files": [
+      "C14/v1_01_pan.pdf",
+      "C14/v1_02_bank_proof.pdf"
+    ],
+    "resubmission_files": []
+  },
+  {
+    "case_id": "C15",
+    "title": "New sole proprietor without GST evidence or a written explanation",
+    "workflow": "document_only",
+    "files": [
+      "C15/v1_01_pan.pdf",
+      "C15/v1_02_bank_proof.pdf"
+    ],
+    "resubmission_files": []
+  },
+  {
+    "case_id": "C16",
+    "title": "Existing company approved without a manually supplied vendor ID",
+    "workflow": "document_only",
+    "files": [
+      "C16/v1_01_pan.pdf",
+      "C16/v1_02_gst.pdf",
+      "C16/v1_03_bank_proof.pdf",
+      "C16/v1_04_business_registration.pdf"
+    ],
+    "resubmission_files": []
+  },
+  {
+    "case_id": "C17",
+    "title": "Bank proof embedded in DOCX",
+    "workflow": "document_only",
+    "files": [
+      "C17/v1_01_pan.pdf",
+      "C17/v1_02_gst.pdf",
+      "C17/v1_03_bank_proof.docx",
+      "C17/v1_04_business_registration.pdf"
+    ],
+    "resubmission_files": []
+  },
+  {
+    "case_id": "C18",
+    "title": "Resubmission cures missing bank proof",
+    "workflow": "document_only",
+    "files": [
+      "C18/v1_01_pan.pdf",
+      "C18/v1_02_gst.pdf",
+      "C18/v1_03_business_registration.pdf"
+    ],
+    "resubmission_files": [
+      "C18/v2_01_bank_proof.pdf"
+    ]
+  },
+  {
+    "case_id": "C19",
+    "title": "Registration evidence in a DOCX table",
+    "workflow": "document_only",
+    "files": [
+      "C19/v1_01_pan.pdf",
+      "C19/v1_02_gst.pdf",
+      "C19/v1_03_bank_proof.pdf",
+      "C19/v1_04_business_registration.docx"
+    ],
+    "resubmission_files": []
+  },
+  {
+    "case_id": "C20",
+    "title": "All evidence in a scanned combined PDF",
+    "workflow": "document_only",
+    "files": [
+      "C20/combined_scanned_evidence.pdf"
+    ],
+    "resubmission_files": []
+  }
+]

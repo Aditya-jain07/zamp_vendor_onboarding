@@ -1,0 +1,160 @@
+{
+  "C01": {
+    "initial": "pending",
+    "reasons": [
+      "new_vendor_verification"
+    ],
+    "matched_vendor_id": null
+  },
+  "C02": {
+    "initial": "approved",
+    "reasons": [],
+    "matched_vendor_id": "V100"
+  },
+  "C03": {
+    "initial": "pending",
+    "reasons": [
+      "new_vendor_verification"
+    ],
+    "matched_vendor_id": null
+  },
+  "C04": {
+    "initial": "pending",
+    "reasons": [
+      "new_vendor_verification"
+    ],
+    "matched_vendor_id": null
+  },
+  "C05": {
+    "initial": "pending",
+    "reasons": [
+      "missing_bank_proof",
+      "missing_field_account_holder",
+      "missing_field_bank_account",
+      "missing_field_ifsc",
+      "new_vendor_verification"
+    ],
+    "matched_vendor_id": null
+  },
+  "C06": {
+    "initial": "pending",
+    "reasons": [
+      "new_vendor_verification"
+    ],
+    "matched_vendor_id": null
+  },
+  "C07": {
+    "initial": "pending",
+    "reasons": [
+      "gst_pan",
+      "new_vendor_verification"
+    ],
+    "matched_vendor_id": null
+  },
+  "C08": {
+    "initial": "pending",
+    "reasons": [
+      "conflict_legal_name",
+      "new_vendor_verification"
+    ],
+    "matched_vendor_id": null
+  },
+  "C09": {
+    "initial": "pending",
+    "reasons": [
+      "changed_bank"
+    ],
+    "matched_vendor_id": "V100"
+  },
+  "C10": {
+    "initial": "rejected",
+    "reasons": [
+      "blocked_record"
+    ],
+    "matched_vendor_id": "V102"
+  },
+  "C11": {
+    "initial": "pending",
+    "reasons": [
+      "unreadable_bank_proof_bank_account",
+      "missing_field_bank_account",
+      "new_vendor_verification"
+    ],
+    "matched_vendor_id": null
+  },
+  "C12": {
+    "initial": "pending",
+    "reasons": [
+      "missing_bank_proof",
+      "missing_field_account_holder",
+      "missing_field_bank_account",
+      "missing_field_ifsc",
+      "new_vendor_verification"
+    ],
+    "matched_vendor_id": null
+  },
+  "C13": {
+    "initial": "pending",
+    "reasons": [
+      "pan_format",
+      "gst_format",
+      "new_vendor_verification"
+    ],
+    "matched_vendor_id": null
+  },
+  "C14": {
+    "initial": "approved",
+    "reasons": [],
+    "matched_vendor_id": "V101"
+  },
+  "C15": {
+    "initial": "pending",
+    "reasons": [
+      "gst_reason",
+      "new_vendor_verification"
+    ],
+    "matched_vendor_id": null
+  },
+  "C16": {
+    "initial": "approved",
+    "reasons": [],
+    "matched_vendor_id": "V100"
+  },
+  "C17": {
+    "initial": "pending",
+    "reasons": [
+      "new_vendor_verification"
+    ],
+    "matched_vendor_id": null
+  },
+  "C18": {
+    "initial": "pending",
+    "reasons": [
+      "missing_bank_proof",
+      "missing_field_account_holder",
+      "missing_field_bank_account",
+      "missing_field_ifsc",
+      "new_vendor_verification"
+    ],
+    "after_resubmission": "pending",
+    "after_resubmission_reasons": [
+      "new_vendor_verification"
+    ],
+    "matched_vendor_id": null,
+    "after_resubmission_matched_vendor_id": null
+  },
+  "C19": {
+    "initial": "pending",
+    "reasons": [
+      "new_vendor_verification"
+    ],
+    "matched_vendor_id": null
+  },
+  "C20": {
+    "initial": "pending",
+    "reasons": [
+      "new_vendor_verification"
+    ],
+    "matched_vendor_id": null
+  }
+}

@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+data/runtime/
+data/vendor_master.xlsx
+data/document_profiles.xlsx

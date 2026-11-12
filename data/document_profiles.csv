@@ -1,0 +1,6 @@
+document_type,display_name,title_cues,field_labels,required_fields
+pan,PAN proof,PAN Card|Permanent Account Number|Tax Identifier Summary,Name|PAN|Taxpayer,pan|legal_name
+gst,GST registration,GST Registration|Goods and Services Tax|GSTIN Certificate,Legal Name|GSTIN|Principal Place,gstin|legal_name
+bank_proof,Bank proof,Account Confirmation|Cancelled Cheque|Bank Statement,Account Holder|Account Number|IFSC,account_holder|bank_account|ifsc
+business_registration,Business registration,Certificate of Incorporation|Business Registration|Entity Registration,Registered Legal Name|Registration Number|CIN,legal_name|registration_number
+declaration,Declaration,Vendor Declaration|Authorisation Declaration,Authorised|Accurate,

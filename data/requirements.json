@@ -1,0 +1,39 @@
+{
+  "workflow": "document_only",
+  "country": "IN",
+  "max_files": 4,
+  "required_extracted_fields": [
+    "legal_name",
+    "pan",
+    "account_holder",
+    "bank_account",
+    "ifsc"
+  ],
+  "required_documents": {
+    "company": [
+      "pan",
+      "bank_proof",
+      "business_registration"
+    ],
+    "sole_proprietor": [
+      "pan",
+      "bank_proof"
+    ],
+    "individual": [
+      "pan",
+      "bank_proof"
+    ]
+  },
+  "policy_notes": {
+    "implementation": "These notes document the policy implemented in app/rules.py; they are not executable policy switches.",
+    "matching": "Automatically match reliable PAN/GSTIN evidence to one vendor-master record. Do not require a manually entered vendor ID.",
+    "comparison": "Compare names, identifiers, bank details and any extracted address across documents and against the matched master. Do not fill missing document evidence from master data.",
+    "gst": "Require a GST certificate when GST evidence exists or the matched master has a GSTIN. A new vendor without GST evidence must provide an explicit written non-registration explanation; an absent GSTIN alone is not an explanation.",
+    "approved": "Configured completeness and consistency checks passed against an existing approved vendor record.",
+    "pending": "Missing, unreadable, uncertain or conflicting evidence; changed details; ambiguous identity; or a vendor not yet verified in the master.",
+    "rejected": "Reliable document identifiers match a blocked vendor record.",
+    "contacts": "Contact name, email and phone are optional. Extract them only if visible. Missing contact details do not block a document decision.",
+    "profiles": "Heading/label matching assists classification and does not establish authenticity.",
+    "fixtures": "cases.json supplies synthetic document generator inputs. expected_results.json is an offline test answer key. Neither file is used as evidence by the app."
+  }
+}
