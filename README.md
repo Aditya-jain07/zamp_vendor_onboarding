@@ -2,9 +2,7 @@
 
 ## Run the project
 
-**Project report and demonstration:** [View the project PDF and Streamlit demo video on Google Drive](https://drive.google.com/drive/folders/YOUR_DRIVE_FOLDER_ID).
-
-Replace `YOUR_DRIVE_FOLDER_ID` with the shared folder ID containing the report and video before publishing this README.
+**Project report and demonstration:** [View the project PDF and Streamlit demo video on Google Drive](https://drive.google.com/drive/folders/1EbjrdmE8AYIUr8v_T9CIMNgoiYA7fyg0?usp=drive_link).
 
 ### 1. Install the dependencies
 
